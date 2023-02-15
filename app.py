@@ -7,9 +7,16 @@ app = Flask(__name__)
 # Put your routes below this comment
 
 '''
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+
 @app.route('/')
 def home():
-    return 'My home page'
+    return render_template('about.html')
+
+
 
 
 @app.errorhandler(404)

@@ -1,0 +1,10 @@
+/*Code to change the color and font of text in about page*/
+h1 {
+    color: rgb(160, 160, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #c71212;
+    font-family: "Times New Roman";
+}
